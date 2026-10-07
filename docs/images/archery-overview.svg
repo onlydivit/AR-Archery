@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">AR Archery</title><desc id="desc">Illustrated project banner with a bow and target. This is not a gameplay screenshot.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d32"/><stop offset="1" stop-color="#163d42"/></linearGradient></defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="58" y="70" fill="#87d8c9" font-size="16" letter-spacing="4">UNITY · AUGMENTED REALITY</text>
+<text x="54" y="150" fill="#ffffff" font-size="68" font-weight="700">AR ARCHERY</text>
+<text x="58" y="196" fill="#cfdee8" font-size="23">Aim in your world. Let the arrow fly.</text>
+<text x="58" y="269" fill="#ffffff" font-size="21">SCAN → PLACE → DRAW → SHOOT</text>
+<text x="58" y="322" fill="#a5c1cb" font-size="18">Animated bow · Physics-driven arrows · Ring scoring</text>
+<text x="58" y="381" fill="#a5c1cb" font-size="13">PROJECT ILLUSTRATION · NOT AN IN-GAME SCREENSHOT</text>
+</g>
+<path d="M759 354 L1103 354 M924 235 L887 353 M924 235 L961 353" stroke="#749493" stroke-width="9" fill="none"/>
+<circle cx="925" cy="174" r="122" fill="#17252c" stroke="#d4e2df" stroke-width="4"/>
+<circle cx="925" cy="174" r="97.6" fill="#428dc5"/>
+<circle cx="925" cy="174" r="61" fill="#e06759"/>
+<circle cx="925" cy="174" r="24.4" fill="#f2c553"/>
+<path d="M777 75 Q669 193 777 318" fill="none" stroke="#d6a470" stroke-width="13" stroke-linecap="round"/>
+<path d="M777 75 L720 205 L777 318" fill="none" stroke="#e5dfce" stroke-width="3"/>
+<path d="M721 205 L925 174 M910 167 L925 174 L913 186" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+</svg>

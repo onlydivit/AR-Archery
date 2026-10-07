@@ -1,0 +1,1590 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 8029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-29T13:45:29Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shett" at "2026-09-29T13:45:29.833551Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/shett/Unity/ARArchery
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+64862
+-parentPid
+18472
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+65c65cc0-6c78-4360-a197-2fb106a0648b
+-analyticsLocalProjectId
+8bcd747e4676cf145a3e95ee743db711
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+a02ed60fe829a116791595032774227ba3c83026
+-cbmMachineId
+mGcXhSvIwQvEkfFneyDdBa6s5GY=
+-licensingIpc
+LicenseClient-shett
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/shett/Unity/ARArchery
+C:/Users/shett/Unity/ARArchery
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [20788]  Target information:
+
+Player connection [20788]  * "[IP] 10.22.119.61 [Port] 0 [Flags] 2 [Guid] 1052133930 [EditorId] 1052133930 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DCLKUMKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20696, path: "C:/Users/shett/OneDrive/Desktop/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              26678a18989742e6b9c16f0cebb26843
+  Correlation Id:          0b10e1cf335f91c158826fd74deb1a23
+  External correlation Id: 4490454756454524531
+  Machine Id:              mGcXhSvIwQvEkfFneyDdBa6s5GY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-shett" (connect: 0.00s, validation: 0.01s, handshake: 0.82s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shett-notifications" at "2026-09-29T13:45:30.6712337Z"
+[Licensing::Module] Licensing Background thread has ended after 0.84s
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: d482ec929498632cf776f77b437c2532
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469975696781-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 26.67 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 4.25 ms.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shett/Unity/ARArchery/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:          NVIDIA
+    VRAM:            3937 MB
+    App VRAM Budget: 3346 MB
+    Driver:          32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.010772 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.645 seconds
+Domain Reload Profiling: 4576ms
+	BeginReloadAssembly (1402ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (229ms)
+	LoadAllAssembliesAndSetupDomain (1224ms)
+		LoadAssemblies (1216ms)
+		TypeCache.Refresh (922ms)
+			TypeCache.ScanAssembly (573ms)
+		AnalyzeDomain (4ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (1646ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (1022ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 16.29 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 18.19 ms, found 2 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.449 seconds
+Domain Reload Profiling: 6405ms
+	BeginReloadAssembly (384ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (190ms)
+	LoadAllAssembliesAndSetupDomain (2334ms)
+		LoadAssemblies (985ms)
+		TypeCache.Refresh (733ms)
+			TypeCache.ScanAssembly (688ms)
+		AnalyzeDomain (314ms)
+			BuildScriptInfoCaches (298ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3452ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			BeforeProcessingInitializeOnLoad (260ms)
+			ProcessInitializeOnLoadAttributes (1954ms)
+			ProcessInitializeOnLoadMethodAttributes (574ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 40.73 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9323 unused Assets / (21.8 MB). Loaded Objects now: 10303.
+Memory consumption went from 459.3 MB to 437.5 MB.
+Total: 85.115700 ms (FindLiveObjects: 4.406300 ms CreateObjectMapping: 3.279000 ms MarkObjects: 54.994400 ms  DeleteObjects: 21.354900 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.44 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 19.89 ms, found 2 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  8.336 seconds
+Domain Reload Profiling: 11728ms
+	BeginReloadAssembly (1099ms)
+		DisableScriptedObjects (20ms)
+		CreateAndSetChildDomain (390ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (322ms)
+	LoadAllAssembliesAndSetupDomain (1904ms)
+		LoadAssemblies (1860ms)
+		TypeCache.Refresh (23ms)
+		AnalyzeDomain (25ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (8340ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			BeforeProcessingInitializeOnLoad (496ms)
+			ProcessInitializeOnLoadAttributes (2752ms)
+			ProcessInitializeOnLoadMethodAttributes (1710ms)
+			AfterProcessingInitializeOnLoad (54ms)
+			EditorAssembliesLoaded (13ms)
+		AwakeInstancesAfterBackupRestoration (139ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 20.96 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9321 unused Assets / (22.3 MB). Loaded Objects now: 10352.
+Memory consumption went from 447.7 MB to 425.4 MB.
+Total: 47.755600 ms (FindLiveObjects: 2.883300 ms CreateObjectMapping: 1.731100 ms MarkObjects: 32.847000 ms  DeleteObjects: 9.761400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:00:32.6871288Z
+  Time since last request: 1130.63078070000006 seconds.
+  importAddress: GUID: 6c5c0aec0286810468d889d34ef32f69 - Path: Assets/_Recovery/0 (1).unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6c5c0aec0286810468d889d34ef32f69 - Path: Assets/_Recovery/0 (1).unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6c5c0aec0286810468d889d34ef32f69' -> (Import Result ID: '0bd777d09d1fae7cb2700d3c00e048df') in 2.535 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59a8b8164ce37932263b310a1b487efb DependenciesID=143aaae18d23bb1cf35c984b5b208321 StaticDependenciesID=3837cda34a20810416d0edae62d216e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 9.26 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.8 MB). Loaded Objects now: 10354.
+Memory consumption went from 444.1 MB to 429.2 MB.
+Total: 155.153600 ms (FindLiveObjects: 6.264500 ms CreateObjectMapping: 2.142700 ms MarkObjects: 141.461000 ms  DeleteObjects: 4.446500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:02:28.1292869Z
+  Time since last request: 111.6724553 seconds.
+  importAddress: GUID: 999dcf9cfc7209643b18a93296b8d20c - Path: Assets/Scripts/ringRed.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 999dcf9cfc7209643b18a93296b8d20c - Path: Assets/Scripts/ringRed.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 999dcf9cfc7209643b18a93296b8d20c' -> (Import Result ID: '7c80ca4bd8d8f4da1185928191ec5e8b') in 0.414 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de3b96a31ba87252a95786b685698343 DependenciesID=102623dfddd60865d3227753b4e55612 StaticDependenciesID=51f80fa55bd881e492897339596efda7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:03:47.7120333Z
+  Time since last request: 79.13976 seconds.
+  importAddress: GUID: a123a9b192cd02242b573d653d17db81 - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a123a9b192cd02242b573d653d17db81 - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a123a9b192cd02242b573d653d17db81' -> (Import Result ID: '4c8f4aece9a667d8f6ec4faacbc9ffca') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=786da1c96722ede2651f6e1b09bab4bd DependenciesID=0feb739cdee5ef4831381181362f6ffa StaticDependenciesID=97b39d9298e9a0a16b68574c6d4832fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:04:03.6595513Z
+  Time since last request: 15.9008351 seconds.
+  importAddress: GUID: 2207e5342455e774c8b8440d36ca4d6c - Path: Assets/Scripts/MovingTarget.cs - Importer: PreviewImporter
+Importing 'GUID: 2207e5342455e774c8b8440d36ca4d6c - Path: Assets/Scripts/MovingTarget.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2207e5342455e774c8b8440d36ca4d6c' -> (Import Result ID: 'd31fda6e60c1f80423cf1c0bc26512f7') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0512e77cc57d8f2c0fb4580d4f533653 DependenciesID=94d74dee0b9bcd4fbfabd08f1bc290c7 StaticDependenciesID=5f74d7a50541f8371009504bf546ed65 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:04:32.4219747Z
+  Time since last request: 28.7340903 seconds.
+  importAddress: GUID: a123a9b192cd02242b573d653d17db81 - Path: Assets/Scripts/RingBlack.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a123a9b192cd02242b573d653d17db81 - Path: Assets/Scripts/RingBlack.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a123a9b192cd02242b573d653d17db81' -> (Import Result ID: 'edd8c7953b24b17007b6bd0b261d1dd4') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8d7ede737bd8d4694d6d7159912d24a DependenciesID=b8fc620428d1cae71efdc77ac0bf0541 StaticDependenciesID=cf8ae95f5cf4822a5283083d6bec8fbb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:05:22.2011632Z
+  Time since last request: 49.7360028 seconds.
+  importAddress: GUID: efb3c41b46f9e074b871470c850e56d6 - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: efb3c41b46f9e074b871470c850e56d6 - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: efb3c41b46f9e074b871470c850e56d6' -> (Import Result ID: '281eeb237efbe54e41596c590c91a3e0') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=278d14838b21e1bbda6fd3fbb22db2fc DependenciesID=2df1ed80e5123b654b53414c065c1b0b StaticDependenciesID=11676ddb8680c4d0fdca512f6e8e0425 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:06:01.6844729Z
+  Time since last request: 39.4407012 seconds.
+  importAddress: GUID: efb3c41b46f9e074b871470c850e56d6 - Path: Assets/Scripts/RingBlue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: efb3c41b46f9e074b871470c850e56d6 - Path: Assets/Scripts/RingBlue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: efb3c41b46f9e074b871470c850e56d6' -> (Import Result ID: '2217887e0f412541d7c5d94fef86548a') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a63f746342ecf0dc5d478b7eedb78232 DependenciesID=9fed11c0a8f8126e8ebd6e014bdce075 StaticDependenciesID=fba4a8c6dc61c0651d6922a7c3ec215e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:06:54.3164288Z
+  Time since last request: 52.5860156 seconds.
+  importAddress: GUID: fccce979d13c46e4197acf3cabbc928b - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fccce979d13c46e4197acf3cabbc928b - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fccce979d13c46e4197acf3cabbc928b' -> (Import Result ID: '4d8c23611f313b7936ff8859c18af7af') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=429c2f9e19555d5374c4a4071c2c659d DependenciesID=bf263e04b13035898857a28463568998 StaticDependenciesID=99597b8f3a1cae671dac5fbbc1169c4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:07:41.0056448Z
+  Time since last request: 46.61759 seconds.
+  importAddress: GUID: fccce979d13c46e4197acf3cabbc928b - Path: Assets/Scripts/RingYellow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fccce979d13c46e4197acf3cabbc928b - Path: Assets/Scripts/RingYellow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fccce979d13c46e4197acf3cabbc928b' -> (Import Result ID: '2936cf57b97c2bff8af378d3b4a03a19') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04438c0f655cf22389a598478d16114a DependenciesID=612f977d214a09590c14d45e76bdd3a4 StaticDependenciesID=118919803409514909a3872573ebde7a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:08:45.0840282Z
+  Time since last request: 64.0381397 seconds.
+  importAddress: GUID: 633a287693718bd478664bf9962c0eba - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 633a287693718bd478664bf9962c0eba - Path: Assets/Scripts/New Material.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 633a287693718bd478664bf9962c0eba' -> (Import Result ID: '2f86f24291932be055b9d6c1e14b892e') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93fe838b08aa27470c32871705a99914 DependenciesID=46b5ac562c2fdb7b0cea7572df70ac03 StaticDependenciesID=ba8651d951d6b459d0d9b4359f99de59 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:09:04.0558505Z
+  Time since last request: 18.9361135 seconds.
+  importAddress: GUID: 633a287693718bd478664bf9962c0eba - Path: Assets/Scripts/RingRed.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 633a287693718bd478664bf9962c0eba - Path: Assets/Scripts/RingRed.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 633a287693718bd478664bf9962c0eba' -> (Import Result ID: 'c7bb93a058e438cd4ab62adf86e88dab') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65117924adbec4a25ea5d8039809d44a DependenciesID=69b374be9344b658945a80e0b3135e52 StaticDependenciesID=429009973e827da629864ea1e95d0ce5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 11.59 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.9 MB). Loaded Objects now: 10354.
+Memory consumption went from 443.7 MB to 428.9 MB.
+Total: 467.580200 ms (FindLiveObjects: 7.342400 ms CreateObjectMapping: 1.562800 ms MarkObjects: 452.800700 ms  DeleteObjects: 5.139200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:25:19.636711Z
+  Time since last request: 975.55817039999999 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '13813a68801df43b7f77162774b18a27') in 0.825 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca5bebec8394c31710fd2c7dcc79c55e DependenciesID=175715fdadc988d46c6f0b889c806f78 StaticDependenciesID=45618c92323690e0ad12061359ed0251 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:25:48.3025801Z
+  Time since last request: 27.8134819 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '2a9be8cc2e98795a477d863eb61b2800') in 0.138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=300b23dae252d93c2a997f2801f104b0 DependenciesID=46a48cd8adc90b979a6111587928cc17 StaticDependenciesID=b755a65f82573a1134ec1551230072c1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 9.62 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.9 MB). Loaded Objects now: 10354.
+Memory consumption went from 444.3 MB to 429.4 MB.
+Total: 24.252200 ms (FindLiveObjects: 1.389400 ms CreateObjectMapping: 0.569500 ms MarkObjects: 18.807300 ms  DeleteObjects: 3.121200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T14:28:31.6090776Z
+  Time since last request: 163.14272750000001 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: '26feae0802ef8711b6f39188c7bac916') in 0.420 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08a1b36b96062b4c13216c0100e72928 DependenciesID=835a3400182ed0398bdbb7e8a4b2f012 StaticDependenciesID=4ee43e991d45e922b3f5348316bc0544 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T18:53:19.1073045Z
+  Time since last request: 15887.07357439999942 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '9c276cb823e20c5255eb75ac2abb62cb') in 2.092 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=0acc55578a5522803fb5bb27954e9580 StaticDependenciesID=2a1e295525c3aa6493cb7f17d85e5f36 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 18.08 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.8 MB). Loaded Objects now: 10357.
+Memory consumption went from 445.0 MB to 430.2 MB.
+Total: 423.034100 ms (FindLiveObjects: 7.635100 ms CreateObjectMapping: 5.817100 ms MarkObjects: 401.575400 ms  DeleteObjects: 6.110800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T18:58:25.1421183Z
+  Time since last request: 303.21919830000002 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: '00000000000000000000000000000000') in 0.069 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefab/arrow.prefab in SourceAssetDB has modification time of '2026-09-29T18:58:20.6243881Z' while content on disk has modification time of '2026-09-29T18:58:25.2071567Z'
+  ERROR: Build asset version error: assets/prefab/arrow.prefab in SourceAssetDB has modification time of '2026-09-29T18:58:20.6243881Z' while content on disk has modification time of '2026-09-29T18:58:25.2071567Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 16.70 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (15.0 MB). Loaded Objects now: 10357.
+Memory consumption went from 445.6 MB to 430.6 MB.
+Total: 45.805600 ms (FindLiveObjects: 1.589400 ms CreateObjectMapping: 0.599000 ms MarkObjects: 38.564000 ms  DeleteObjects: 4.425200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:00:19.5802874Z
+  Time since last request: 114.3361645 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: 'cc6e5588ccc75fe85104077ceb285a99') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99bb4d70f1fc8f82bba14e429cd4a1eb DependenciesID=6d9ee34961b0e1bdaa4b3e763e7808f8 StaticDependenciesID=fc92a6b6fd53736b0a1f9d5d48af7506 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:00:24.5055689Z
+  Time since last request: 4.8099237 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: '9506e31cfdf0d444de79c4cb4ea54ef8') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad5885ca6c9b3ba1b5dc0e4082be0829 DependenciesID=1ab70e14816643d62e1dc6d51f3cd80a StaticDependenciesID=ba2fbf1366e138e8d9b42812882753c8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:00:28.7122892Z
+  Time since last request: 4.1404104 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: '757fe0121b0b4f2630f9d99ecfe6d799') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29765f4a25c9c4800f76f6b858ecbcb1 DependenciesID=5c594b383509f53b03deb7f1c704b88f StaticDependenciesID=4b0c8d81ac021bbe1bcb0e498c862d06 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:00:32.4417317Z
+  Time since last request: 3.6507396 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: 'fb806890ea5cf09a7125dd6984fb2d1d') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d18067ca66e87d1aee510dfde9e189c0 DependenciesID=faf1c95ba80c4b5761ebaba170b47f31 StaticDependenciesID=c6d03f88304a8d95882ea05285d6ddf2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:00:48.7968069Z
+  Time since last request: 16.2019844 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: '235ca4c454291bb9eb6fa36be2b7641b') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a0febb45a77462f63a2042f99aa9650 DependenciesID=c89d6bdde53680571e1eb7cc0c95d3a4 StaticDependenciesID=e3ce281e4866484b8af6ec269bb89945 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:00:51.7044291Z
+  Time since last request: 2.8364567 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: 'ce8268f0f024b5fdc95062de791bc557') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27e6d151c1d9d6da4103a490afe16697 DependenciesID=d9cccdc010df5aaeb41351baf16e82bc StaticDependenciesID=3dbb8c6c85f3f1d539a54baf4a0f84f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:00:59.3544078Z
+  Time since last request: 7.5432091 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: '784968ab0b5e7c16cb7c87166cc3301d') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c2e814f374048895f8d9d4a4166087e DependenciesID=31420be2193ed50aeb9b3b83a8a09331 StaticDependenciesID=bc5b37f3a4a4c2560ed4e1634e873d4b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 15.19 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (14.7 MB). Loaded Objects now: 10359.
+Memory consumption went from 445.1 MB to 430.3 MB.
+Total: 229.309400 ms (FindLiveObjects: 5.487900 ms CreateObjectMapping: 4.732700 ms MarkObjects: 213.150300 ms  DeleteObjects: 4.747000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 16.77 ms, found 2 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (14.9 MB). Loaded Objects now: 10359.
+Memory consumption went from 445.6 MB to 430.7 MB.
+Total: 55.932000 ms (FindLiveObjects: 2.226700 ms CreateObjectMapping: 1.768200 ms MarkObjects: 44.614000 ms  DeleteObjects: 6.229200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:04:02.5558108Z
+  Time since last request: 183.06447969999999 seconds.
+  importAddress: GUID: 0f6498a5437965246a3dec0fa879314b - Path: Assets/Resources/PerformanceTestRunInfo.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0f6498a5437965246a3dec0fa879314b - Path: Assets/Resources/PerformanceTestRunInfo.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0f6498a5437965246a3dec0fa879314b' -> (Import Result ID: '0763c506bf0c1c14ef14b7b736f9c039') in 0.174 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75ecc15309ab1c4548d7ea89692d0dee DependenciesID=d0e039a975988c38331facb15e3fb40f StaticDependenciesID=bd311ffec71a14b620a49db8062cbf67 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:04:02.8024666Z
+  Time since last request: 0.0088375 seconds.
+  importAddress: GUID: e140c899c3d924dff8f41e493d33d3a7 - Path: Packages/com.unity.xr.arkit/Tests/Editor/Assets/TestReferenceImageLibrary.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e140c899c3d924dff8f41e493d33d3a7 - Path: Packages/com.unity.xr.arkit/Tests/Editor/Assets/TestReferenceImageLibrary.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e140c899c3d924dff8f41e493d33d3a7' -> (Import Result ID: '004b32be66ff86786f6e45bf1aab362b') in 1.753 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=263a3cb3486a521e1cf2a550dd4e777f DependenciesID=be10c7c233e4586339dbaaf6e606d654 StaticDependenciesID=1bf4f28dcefd1737940e710c31895280 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 15.86 ms, found 2 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (14.9 MB). Loaded Objects now: 10359.
+Memory consumption went from 471.8 MB to 456.9 MB.
+Total: 48.553600 ms (FindLiveObjects: 1.840500 ms CreateObjectMapping: 0.914800 ms MarkObjects: 40.584900 ms  DeleteObjects: 4.506800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 15.76 ms, found 2 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (14.7 MB). Loaded Objects now: 10359.
+Memory consumption went from 446.7 MB to 432.0 MB.
+Total: 854.818800 ms (FindLiveObjects: 9.303200 ms CreateObjectMapping: 3.422100 ms MarkObjects: 834.614500 ms  DeleteObjects: 6.605900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 33.17 ms, found 2 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9300 unused Assets / (20.9 MB). Loaded Objects now: 10351.
+Memory consumption went from 453.8 MB to 432.9 MB.
+Total: 1178.715200 ms (FindLiveObjects: 41.522000 ms CreateObjectMapping: 1.678300 ms MarkObjects: 1109.494600 ms  DeleteObjects: 23.409600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-29T19:24:55.2167992Z
+  Time since last request: 1250.55528230000004 seconds.
+  importAddress: GUID: a5046aaa2809c1d4296a4879f1e4ac9a - Path: Assets/Scripts/PlaceTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a5046aaa2809c1d4296a4879f1e4ac9a - Path: Assets/Scripts/PlaceTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a5046aaa2809c1d4296a4879f1e4ac9a' -> (Import Result ID: '7fd426ba2b351d89b9460f01cd495686') in 0.359 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cca9c8595951f6a13c5af79c5920a685 DependenciesID=3a50d7c8f905cf0864f27e577b8e8830 StaticDependenciesID=aef36f1d0a54a68c21061c967d25a328 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 51.83 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 14.66 ms, found 2 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.890 seconds
+Domain Reload Profiling: 24371ms
+	BeginReloadAssembly (8665ms)
+		ExecutionOrderSort (11ms)
+		DisableScriptedObjects (562ms)
+		ReleaseScriptingObjects (13ms)
+		CreateAndSetChildDomain (4482ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (70ms)
+	initialDomainReloadingComplete (553ms)
+	LoadAllAssembliesAndSetupDomain (9164ms)
+		LoadAssemblies (6477ms)
+		TypeCache.Refresh (211ms)
+			TypeCache.ScanAssembly (5ms)
+		AnalyzeDomain (2206ms)
+			BuildScriptInfoCaches (2123ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (5894ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (9ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			BeforeProcessingInitializeOnLoad (708ms)
+			ProcessInitializeOnLoadAttributes (2240ms)
+			ProcessInitializeOnLoadMethodAttributes (1736ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (8ms)
+		AwakeInstancesAfterBackupRestoration (109ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 21.78 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9321 unused Assets / (21.8 MB). Loaded Objects now: 10359.
+Memory consumption went from 475.4 MB to 453.6 MB.
+Total: 63.815900 ms (FindLiveObjects: 5.441400 ms CreateObjectMapping: 2.296700 ms MarkObjects: 44.087900 ms  DeleteObjects: 10.169900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 24.72 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 2.40 ms.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.8 MB). Loaded Objects now: 10359.
+Memory consumption went from 469.6 MB to 454.8 MB.
+Total: 2771.336200 ms (FindLiveObjects: 14.474700 ms CreateObjectMapping: 3.739100 ms MarkObjects: 2743.804100 ms  DeleteObjects: 7.958700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:52:54.4175672Z
+  Time since last request: 66478.81394959999307 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'dc856e1b5a6bf2a63de1109a00826896') in 1.084 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=b3ed8f45a7777f803301e35be0f111a8 StaticDependenciesID=7d15eafe7baec21e29c65add5e92d70a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:53:43.2088006Z
+  Time since last request: 47.5315486 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'bb034248e569eaf04a81f1b90e0ae256') in 0.062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=eb35b28e97e92dd5c4a542ba37372532 StaticDependenciesID=6a013ee181ebee7c703029092916cece 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:55:01.934416Z
+  Time since last request: 78.52483220000001 seconds.
+  importAddress: GUID: c395164bee0484f4391b2932dfff0ff8 - Path: Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiver.shadergraph - Importer: PreviewImporter
+Importing 'GUID: c395164bee0484f4391b2932dfff0ff8 - Path: Assets/MobileARTemplateAssets/Shaders/ShadowReceiver/ShadowReceiver.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c395164bee0484f4391b2932dfff0ff8' -> (Import Result ID: '71d197d81e5c4fbd3becbfb43a5d1bba') in 7.560 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a38a3860c0bffa07d0dd1e9c82c8c35 DependenciesID=8e0064930f6df6c7934abfe444336fcb StaticDependenciesID=42fac3953bd4066554a4aceabac81b96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:55:09.5391251Z
+  Time since last request: 0.0023489 seconds.
+  importAddress: GUID: ca2ed216f98028c4dae6c5224a952b3c - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph - Importer: PreviewImporter
+Importing 'GUID: ca2ed216f98028c4dae6c5224a952b3c - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ca2ed216f98028c4dae6c5224a952b3c' -> (Import Result ID: '0940fb58876d88ad6bc16962a1002aa6') in 0.237 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e84d343a8b808a4bda78ab9cd837d293 DependenciesID=6651ee67bb7bcf58344f1baf18a68839 StaticDependenciesID=4acad35b0f8d7c046bd37f7ed3b32e2d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:55:09.8300248Z
+  Time since last request: 0.0072324 seconds.
+  importAddress: GUID: a5046aaa2809c1d4296a4879f1e4ac9a - Path: Assets/Scripts/PlaceTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a5046aaa2809c1d4296a4879f1e4ac9a - Path: Assets/Scripts/PlaceTarget.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a5046aaa2809c1d4296a4879f1e4ac9a' -> (Import Result ID: 'fe40d9ee316da5c55f25001b75379ed4') in 0.601 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8a68c33e1b022ce28ed230bee52d3ed DependenciesID=3a50d7c8f905cf0864f27e577b8e8830 StaticDependenciesID=aef36f1d0a54a68c21061c967d25a328 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:55:10.468272Z
+  Time since last request: 0.0045075 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '370a9ea6b1a57ea1a5227fb02080b8f2') in 0.143 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09e6293fe39574b7c45e88789f94e61a DependenciesID=ca92369ef645987a4c0344a14b422c91 StaticDependenciesID=925995de2a892c07c90a68309f628465 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:55:13.90298Z
+  Time since last request: 3.2662106 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '602394bd42bb7c6d924471f9585f57f5') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=48cae996c4b8c334261ea21a99c95170 StaticDependenciesID=730ff1da8c3ec7064bec51998e0def84 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:55:14.6454449Z
+  Time since last request: 0.7194956 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '9407a79485d0b0826141f18ed7f201ba') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c382d85c7a74e8a12630ea334a097383 DependenciesID=bcec470d4c61ea5c26d5080a7822f1ee StaticDependenciesID=8265996c74d345e1d76e7593c4c73ab7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:33.7093295Z
+  Time since last request: 79.0341324 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '72870dfe1e64cd8a206ba43d22a5f259') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=a4395151035727a26077d2766ea4d6e9 StaticDependenciesID=79485942e8eaa179811c545e9930f1a2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:34.6730651Z
+  Time since last request: 0.9291414 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'f0123ac19d1d14d21a1afd04fabf6154') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7980b7d459cfddee00e0594bbdc16b41 DependenciesID=16ff2dfb032c0371e5ecd2b72df52adc StaticDependenciesID=fa80fdb6ba842e1d34d13e2760bca761 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:40.6204375Z
+  Time since last request: 5.9131739 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'c3667c7a0c7605a255f18ae4f77df9aa') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=2e1bcb1a09ac83cdac1616315f1ece1c StaticDependenciesID=50de72d57193768aea47beebbe06833d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:41.5853658Z
+  Time since last request: 0.9215067 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'a7328efa33f792567f441d114555f69b') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d60197b8b0d3ce86d8e98b959ffbebbe DependenciesID=ebfd768f1fa3ca6611aa575baab1af28 StaticDependenciesID=e235fea44cedf2790858a3aa8c588331 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:47.3060774Z
+  Time since last request: 5.6812333 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'd80a81d215dfb690f1899884a9fd5bca') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=67d1e709aca40d7a265512a3b397e58d StaticDependenciesID=3248f56a812a671cc3643fab8320d71a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:48.2772651Z
+  Time since last request: 0.9483294 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '1fa2d6db48d50347be8db9f43d8bb5e4') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ec42c14bf9c2a3296406adfb84a3011 DependenciesID=fc6f3c1572b36d166cd67d5b680844b5 StaticDependenciesID=a111e520997735fcec66bd8faa3a1410 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:52.6837362Z
+  Time since last request: 4.3640395 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '71c78ffe40d893bd6084b2d594912df5') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=664f68e495ddddefce58d0d41c4157ec StaticDependenciesID=01645f80ce7775bb9a040f6bde858558 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:53.6600545Z
+  Time since last request: 0.9553873 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'b345f53035916579c950c0d0737cd84e') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1dd4c6c1ccbf2173cf6e89c351766f6 DependenciesID=4c1ff1bd1957c55aaa023172b98f31fd StaticDependenciesID=a9dca03b73bc152b1ca32b983b873c08 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:56.0970091Z
+  Time since last request: 2.3924545 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '4faf9178c1fbcb04af64e420b60964a7') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090a42a1b03b7edafa8cf96a54ef12c8 DependenciesID=3b0748ae17f584f135d9d4b15cb5cb5d StaticDependenciesID=486289d523cdd4be5457824e3cb1beb7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:56:57.0740306Z
+  Time since last request: 0.9541291 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: 'b165d2e3039a1fc6af97448b9a417c12') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=416b96ca3c298dc04d5cfbca5ca4c7f8 DependenciesID=6f277fa6644707063bae910bafb80a4e StaticDependenciesID=8cba636672bd0e22dfb82bf72f4c9ff3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T13:57:16.0115911Z
+  Time since last request: 18.8812843 seconds.
+  importAddress: GUID: 4755b35b590504809a7525fd2109c2e2 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4755b35b590504809a7525fd2109c2e2 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4755b35b590504809a7525fd2109c2e2' -> (Import Result ID: 'd7dc342d033446dc3bad2f590b18255b') in 0.134 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=160a82b8c40b2489f17df479d240a186 DependenciesID=8349828e1cf349fb2b619412aaccb023 StaticDependenciesID=5a62c37cc094299b2183e6e07656a3f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T14:00:34.7253015Z
+  Time since last request: 198.55521139999999 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: PreviewImporter
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: 'adebb2ade801143d617ca23984a5b0ff') in 0.187 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=254e7b8307163b6cd315ffb5bc2dd902 DependenciesID=f07530ae90425c0d42a3d4ea1453f846 StaticDependenciesID=3180ff9f47054b5afcddcb401faa976e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 20.11 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 25.06 ms, found 2 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.904 seconds
+Domain Reload Profiling: 18590ms
+	BeginReloadAssembly (5708ms)
+		ExecutionOrderSort (18ms)
+		DisableScriptedObjects (1371ms)
+		ReleaseScriptingObjects (9ms)
+		CreateAndSetChildDomain (2008ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (453ms)
+	LoadAllAssembliesAndSetupDomain (7401ms)
+		LoadAssemblies (4879ms)
+		TypeCache.Refresh (136ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (2156ms)
+			BuildScriptInfoCaches (1996ms)
+			ResolveRequiredComponents (63ms)
+	FinalizeReload (4975ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (9ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			BeforeProcessingInitializeOnLoad (736ms)
+			ProcessInitializeOnLoadAttributes (2210ms)
+			ProcessInitializeOnLoadMethodAttributes (1079ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (8ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 11.98 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9322 unused Assets / (19.4 MB). Loaded Objects now: 10424.
+Memory consumption went from 489.8 MB to 470.3 MB.
+Total: 77.459000 ms (FindLiveObjects: 14.481700 ms CreateObjectMapping: 3.026400 ms MarkObjects: 42.781300 ms  DeleteObjects: 14.620100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T14:52:09.9046511Z
+  Time since last request: 3094.93043989999978 seconds.
+  importAddress: GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter
+Importing 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1 - Path: Assets/prefab/TargetPlaceholder.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd3456b1ada1bfb4ba6307a32cd5aab1' -> (Import Result ID: '1b4a980dab5c9f99bbbb2cc62aa839a9') in 1.194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a5c184d26f9149b8f445c7e6cec1181 DependenciesID=b677ddbf971f0027919438260fdf48ed StaticDependenciesID=b0d26c938aef900114afdc0d2390202e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T14:52:47.7593237Z
+  Time since last request: 36.6159949 seconds.
+  importAddress: GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: PreviewImporter
+Importing 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722 - Path: Assets/prefab/Arrow.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8cd18ad2b80c1d14daca68e0acd5a722' -> (Import Result ID: '29d0d2b407135c2e764330a4d6ef2415') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c44fac53fbb09038cfa29e001c76d46c DependenciesID=d30d51e080e7a9b2eeb5930f3864d818 StaticDependenciesID=f585cbc3533edeebcbb03bacfd9e6b53 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 13.25 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.8 MB). Loaded Objects now: 10530.
+Memory consumption went from 490.8 MB to 476.0 MB.
+Total: 709.755500 ms (FindLiveObjects: 12.788200 ms CreateObjectMapping: 2.160200 ms MarkObjects: 685.207500 ms  DeleteObjects: 7.377300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.03 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (15.0 MB). Loaded Objects now: 10532.
+Memory consumption went from 491.4 MB to 476.4 MB.
+Total: 26.338100 ms (FindLiveObjects: 1.118200 ms CreateObjectMapping: 0.837100 ms MarkObjects: 21.367100 ms  DeleteObjects: 2.655000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 11.59 ms, found 2 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (14.7 MB). Loaded Objects now: 10532.
+Memory consumption went from 491.9 MB to 477.2 MB.
+Total: 797.769400 ms (FindLiveObjects: 15.548500 ms CreateObjectMapping: 2.849900 ms MarkObjects: 771.063700 ms  DeleteObjects: 6.691700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 16.70 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 22.98 ms, found 2 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.876 seconds
+Domain Reload Profiling: 19325ms
+	BeginReloadAssembly (6506ms)
+		ExecutionOrderSort (20ms)
+		DisableScriptedObjects (1394ms)
+		ReleaseScriptingObjects (11ms)
+		CreateAndSetChildDomain (2251ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (523ms)
+	LoadAllAssembliesAndSetupDomain (6335ms)
+		LoadAssemblies (4405ms)
+		TypeCache.Refresh (155ms)
+			TypeCache.ScanAssembly (5ms)
+		AnalyzeDomain (1689ms)
+			BuildScriptInfoCaches (1643ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (5880ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (17ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			BeforeProcessingInitializeOnLoad (617ms)
+			ProcessInitializeOnLoadAttributes (2099ms)
+			ProcessInitializeOnLoadMethodAttributes (2081ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (11ms)
+		AwakeInstancesAfterBackupRestoration (94ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 38.22 ms, found 2 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9323 unused Assets / (16.9 MB). Loaded Objects now: 10449.
+Memory consumption went from 500.3 MB to 483.3 MB.
+Total: 127.524400 ms (FindLiveObjects: 36.856900 ms CreateObjectMapping: 9.422100 ms MarkObjects: 51.509800 ms  DeleteObjects: 27.622400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T06:53:44.5452689Z
+  Time since last request: 57656.79943759999878 seconds.
+  importAddress: GUID: 28b67ea81a7569843971e612c56c087b - Path: Assets/Scripts/ScoreManager.cs - Importer: PreviewImporter
+Importing 'GUID: 28b67ea81a7569843971e612c56c087b - Path: Assets/Scripts/ScoreManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 28b67ea81a7569843971e612c56c087b' -> (Import Result ID: '196627a0c8591b3fd82d2c8224101709') in 0.605 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=335e705f72553900b3553a34e713fe75 DependenciesID=0ee5a5240d850d969c16e23411e60a37 StaticDependenciesID=a899b06a6b229c93dd85c60dc3ec933a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T06:53:45.9114878Z
+  Time since last request: 0.5471967 seconds.
+  importAddress: GUID: 7162596c1f21ff6489f8efd5c75a9c8d - Path: Assets/Scripts/TargetScore.cs - Importer: PreviewImporter
+Importing 'GUID: 7162596c1f21ff6489f8efd5c75a9c8d - Path: Assets/Scripts/TargetScore.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7162596c1f21ff6489f8efd5c75a9c8d' -> (Import Result ID: 'a527f3b6d5bea0e338cbf2b1a5a2180c') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46b1ea64d160d695133c0bb2f65c59ec DependenciesID=227093e089b27d5a793a86f21d01f2dc StaticDependenciesID=4c0fbff2ac0861ab208688b767aea4fa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T06:53:57.1000274Z
+  Time since last request: 11.1053284 seconds.
+  importAddress: GUID: a5046aaa2809c1d4296a4879f1e4ac9a - Path: Assets/Scripts/PlaceTarget.cs - Importer: PreviewImporter
+Importing 'GUID: a5046aaa2809c1d4296a4879f1e4ac9a - Path: Assets/Scripts/PlaceTarget.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a5046aaa2809c1d4296a4879f1e4ac9a' -> (Import Result ID: '14a01f61b6c36f4554afa4a2be913418') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=803f6603d4621745364a0190be9e29a1 DependenciesID=87026c4c484c9f5263e01067fa5f2c47 StaticDependenciesID=98c4a7712f2c8d0ecdda41829ce1789c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T06:54:32.6411329Z
+  Time since last request: 35.458302 seconds.
+  importAddress: GUID: 1d9bda941a179e24fb05293d1728536f - Path: Assets/Scripts/ArrowProjectile.cs - Importer: PreviewImporter
+Importing 'GUID: 1d9bda941a179e24fb05293d1728536f - Path: Assets/Scripts/ArrowProjectile.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1d9bda941a179e24fb05293d1728536f' -> (Import Result ID: '85d3a708bf02f4c0e58049e2f9b1c9b3') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c11053335b54cd9eb72d2cdeb29d526f DependenciesID=3471944586bb6e2f7cd17e0b241a3a4e StaticDependenciesID=e00466d8a2654a13d6fa5cbc2ac22a56 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 97.87 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 12.62 ms.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.8 MB). Loaded Objects now: 10449.
+Memory consumption went from 492.0 MB to 477.2 MB.
+Total: 534.085800 ms (FindLiveObjects: 67.455300 ms CreateObjectMapping: 2.377200 ms MarkObjects: 451.374300 ms  DeleteObjects: 7.569200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 14.87 ms, found 2 plugins.
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (15.0 MB). Loaded Objects now: 10451.
+Memory consumption went from 492.6 MB to 477.5 MB.
+Total: 38.232300 ms (FindLiveObjects: 1.944700 ms CreateObjectMapping: 0.925000 ms MarkObjects: 29.737100 ms  DeleteObjects: 4.622000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 36.79 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 4.34 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (14.7 MB). Loaded Objects now: 10451.
+Memory consumption went from 493.1 MB to 478.4 MB.
+Total: 736.189400 ms (FindLiveObjects: 31.831600 ms CreateObjectMapping: 3.713000 ms MarkObjects: 687.743400 ms  DeleteObjects: 10.628400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 18.67 ms, found 2 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (14.8 MB). Loaded Objects now: 10449.
+Memory consumption went from 493.6 MB to 478.8 MB.
+Total: 536.806200 ms (FindLiveObjects: 16.180500 ms CreateObjectMapping: 2.773500 ms MarkObjects: 502.766000 ms  DeleteObjects: 13.474700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+Curl error 42: Callback aborted
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
